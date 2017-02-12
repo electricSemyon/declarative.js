@@ -1,0 +1,37 @@
+{
+  "name": "declarative.js",
+  "version": "1.0.0",
+  "description": "Javascript library with cool declarative things from other languages.",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electricSemyon/declarative.js.git"
+  },
+  "keywords": [
+    "declarative",
+    "functional",
+    "js"
+  ],
+  "author": "electricSemyon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electricSemyon/declarative.js/issues"
+  },
+  "homepage": "https://github.com/electricSemyon/declarative.js#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "babel-jest": "^18.0.0"
+  }
+}
