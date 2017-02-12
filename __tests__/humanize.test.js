@@ -6,5 +6,5 @@ test('must replace underscores with spaces and capitalize first word', () => {
 
   const humanizedText = humanize(sampleText);
 
-  return expect(humanizedText).toBe(expectedText); 
+  expect(humanizedText).toBe(expectedText); 
 });
