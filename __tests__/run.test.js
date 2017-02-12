@@ -1,4 +1,4 @@
-import run from '../src/run';
+import { run } from '../src/';
 
 test('array length must be 5', () => {
   const arr = [];

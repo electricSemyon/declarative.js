@@ -1,4 +1,4 @@
-import humanize from '../src/humanize';
+import { humanize } from '../src/';
 
 test('must replace underscores with spaces and capitalize first word', () => {
   const sampleText = 'hello_world';
