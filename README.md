@@ -10,12 +10,12 @@ Javascript library, that contains cool declarative features from other languages
 
 ### run
 ```javascript 
-run(n).times((n) => console.log(n));
+run(n).times((n) => console.log(n)); //will run callback with current iterator as argument
 ```
 Declarative loop from ruby. 
 
 ### humanize
 ```javascript 
-humanize(sampleText);
+humanize('sample_text'); //will return 'Sample text'
 ```
 This function allows you to make `Some fancy text` from `some_fancy_text`.
