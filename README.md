@@ -10,7 +10,13 @@ Javascript library, that contains cool declarative features from other languages
 
 ### run
 ```javascript 
-run(n).times((n) => console.log(n)); //will run callback with current iterator as argument
+run(5).times((n) => console.log(n));
+0
+1
+2
+3
+4
+=> undefined
 ```
 Declarative loop from ruby. 
 
