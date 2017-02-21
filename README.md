@@ -19,3 +19,15 @@ Declarative loop from ruby.
 humanize('sample_text'); //will return 'Sample text'
 ```
 This function allows you to make `Some fancy text` from `some_fancy_text`.
+
+### keys
+```javascript 
+keys(
+  {
+    1: 'test',
+    2: 'test',
+    3: 'test'
+  }
+)
+```
+Returns an array of object keys.
