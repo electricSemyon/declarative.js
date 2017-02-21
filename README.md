@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/electricSemyon/declarative.js.svg?branch=master)](https://travis-ci.org/electricSemyon/declarative.js)
+
 # declarative.js
 Javascript library, that contains cool declarative features from other languages.
 
