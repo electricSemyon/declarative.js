@@ -1,7 +1,5 @@
 # declarative.js
 Javascript library, that contains cool declarative features from other languages.
-<<<<<<< HEAD
-=======
 
 ## How to develop?
 `git clone https://github.com/electricSemyon/declarative.js.git`
@@ -12,13 +10,32 @@ Javascript library, that contains cool declarative features from other languages
 
 ### run
 ```javascript 
-run(n).times((n) => console.log(n));
+run(5).times((n) => console.log(n));
+0
+1
+2
+3
+4
+=> undefined
 ```
 Declarative loop from ruby. 
 
 ### humanize
 ```javascript 
-humanize(sampleText);
+humanize('sample_text');
+=> 'Sample text'
 ```
 This function allows you to make `Some fancy text` from `some_fancy_text`.
->>>>>>> 1b2611224a83b62fd8535d47c6df506c520c2941
+
+### keys
+```javascript 
+keys(
+  {
+    1: 'test',
+    2: 'test',
+    3: 'test'
+  }
+)
+=> [1, 2, 3]
+```
+Returns an array of object keys.
