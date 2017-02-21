@@ -16,7 +16,8 @@ Declarative loop from ruby.
 
 ### humanize
 ```javascript 
-humanize('sample_text'); //will return 'Sample text'
+humanize('sample_text');
+=> 'Sample text'
 ```
 This function allows you to make `Some fancy text` from `some_fancy_text`.
 
@@ -29,5 +30,6 @@ keys(
     3: 'test'
   }
 )
+=> [1, 2, 3]
 ```
 Returns an array of object keys.
