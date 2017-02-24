@@ -1,5 +1,5 @@
 const run = (n) => {
-  if (!n || isNaN(n)) {
+  if ((!n || isNaN(n)) && n !== 0) {
     throw new Error('Argument is null/undefined');
   }
 

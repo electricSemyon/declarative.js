@@ -3,10 +3,7 @@ import { run } from '../src/';
 test('function must throw an error if argument is null/undefined', () => {
   expect(() => run(null).times())
     .toThrow(new Error("Argument is null/undefined"));
-
-  expect(() => run(0).times())
-    .toThrow(new Error("Argument is null/undefined"));
-
+    
   expect(() => run().times())
     .toThrow(new Error("Argument is null/undefined"));
 })
