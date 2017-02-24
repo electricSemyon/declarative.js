@@ -41,3 +41,10 @@ keys(
 => [1, 2, 3]
 ```
 Returns an array of object keys.
+
+### range
+```javascript 
+range(0, 10, 1);
+=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+Returns an array, which begins from "start" argument, ends with "end" argument. Step = "step".
