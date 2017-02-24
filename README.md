@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/electricSemyon/declarative.js.svg?branch=master)](https://travis-ci.org/electricSemyon/declarative.js)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # declarative.js
 Javascript library, that contains cool declarative features from other languages.
