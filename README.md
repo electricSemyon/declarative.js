@@ -11,6 +11,11 @@ Javascript library, that contains cool declarative features from other languages
 
 ## Already done
 
+* [run()](#run)
+* [humanize()](#humanize)
+* [keys()](#keys)
+* [range()](#range)
+
 ### run
 ```javascript 
 run(5).times((n) => console.log(n));
